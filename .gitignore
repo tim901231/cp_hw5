@@ -1,0 +1,25 @@
+# Generated arrays, diagnostics, old deliverables and scratch work
+output/
+.venv/
+*.npz
+*.npy
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Commit only the cropped, linear own captures. Course inputs are supplied separately.
+data/*
+!data/own/
+*.NEF
+*.nef
+assgn5.pdf
+
+# Report source/assets and the root report.pdf are committed; build files are not.
+report/*.aux
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/report.pdf
+report/*.zip

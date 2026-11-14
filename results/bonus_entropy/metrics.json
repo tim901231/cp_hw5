@@ -1,0 +1,17 @@
+{
+  "face": {
+    "samples": 86842,
+    "entropy_before": 5.117408560487685,
+    "entropy_after": 4.315851068628426
+  },
+  "cup": {
+    "samples": 12000,
+    "entropy_before": 4.476505478787802,
+    "entropy_after": 3.390741178518563
+  },
+  "boot": {
+    "samples": 12000,
+    "entropy_before": 4.839106578546416,
+    "entropy_after": 4.487395293044332
+  }
+}

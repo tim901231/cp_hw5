@@ -1,0 +1,31 @@
+{
+  "input_shape": [
+    7,
+    431,
+    369
+  ],
+  "singular_values": [
+    252.13489927581196,
+    29.991619580437792,
+    21.00550634459478,
+    6.412000689577043,
+    4.844766310458477,
+    3.8200642971652656,
+    3.1109046064715415
+  ],
+  "rank3_energy": 0.998633016065128,
+  "Q_image_fit_max_difference": 1.1102230246251565e-16,
+  "manual_gbr": {
+    "mu": 0,
+    "nu": 0,
+    "lambda": 2,
+    "transform": "B_manual = inv(G).T @ B_integrable"
+  },
+  "calibrated_relative_residual": 0.04607617248964231,
+  "poisson_frankot_mean_removed_depth_RMSE": 23.20458402675013,
+  "novel_light": [
+    -0.35777087639996635,
+    -0.2683281572999747,
+    0.8944271909999159
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "face": {
+    "normal_source": "sigma=8, 6px erosion, training-reference focal/normal rescaling",
+    "integration": "3 Huber iterations on incidence-weighted foreground edges",
+    "log_depth_span": 2.03848249940858
+  },
+  "cup": {
+    "normal_source": "Existing perspective normals retained; integration updated only",
+    "integration": "3 Huber iterations on incidence-weighted foreground edges",
+    "log_depth_span": 6.70532536338582
+  },
+  "shoes": {
+    "normal_source": "Existing perspective normals retained; integration updated only",
+    "integration": "3 Huber iterations on incidence-weighted foreground edges",
+    "log_depth_span": 5.290433038104496
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "raw_settings": [
+    {
+      "SourceFile": "capture4.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    },
+    {
+      "SourceFile": "capture5.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    },
+    {
+      "SourceFile": "capture7.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    },
+    {
+      "SourceFile": "capture6.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    },
+    {
+      "SourceFile": "capture2.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    },
+    {
+      "SourceFile": "capture3.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    },
+    {
+      "SourceFile": "capture1.NEF",
+      "ExposureTime": 4,
+      "ISO": 100,
+      "FNumber": 5.6,
+      "FocalLength": 55
+    }
+  ],
+  "decode": "dcraw -4 -h -r 1 1 1 1 -o 1",
+  "full_resized_width": 2000,
+  "roi_preview1000": [
+    235,
+    425,
+    425,
+    585
+  ],
+  "focal_pixels_assumed": 4680.851063829788,
+  "cx": 530.0,
+  "cy": -183.33333333333337,
+  "intrinsics_note": "Approximate Nikon DX sensor width 23.5mm; centered principal point; not calibrated.",
+  "segmentation": "Capture-specific silhouette seeds + GrabCut on maximum linear-light composite",
+  "foreground_pixels": 64691
+}
